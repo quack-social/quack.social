@@ -1,8 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
+import Paragraph from '../components/Paragraph.astro'
+import Heading from '../components/Heading.astro'
+import HeaderLink from '../components/HeaderLink.astro'
 ---
 
 <Layout>
-  <h1>Quack!</h1>
+  <Heading>Quack!</Heading>
+  <Paragraph>Welcome to quack! We're excited to start providing a diverse range of online services tailored to meet your digital needs.
+
+At quack, we believe in empowering users with choice and flexibility. That's why we started hosting online services, including Mastodon for federated/decentralized social networking and Matrix (WIP) for secure and federated/decentralized communication. But we're not stopping there – stay tuned as we continue to expand our offerings.
+
+If you'd like to reach out to us, please contact <HeaderLink href="https://ahwx.org" text="Ahwx" /> or <HeaderLink href="https://prpl.wtf" text="prpl"/>.</Paragraph>
 </Layout>
