@@ -1,0 +1,6 @@
+version: '3'
+services:
+  quack-social-landing:
+    ports:
+      - 4321:8080
+    image: ghcr.io/quack-social/quack-social
